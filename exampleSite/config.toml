@@ -180,11 +180,6 @@ hasChildren = true
 
   [[Languages.en.menu.main]]
   parent = "Pages"
-  name = "FAQ"
-  URL = "faq"
-
-  [[Languages.en.menu.main]]
-  parent = "Pages"
   name = "Pricing"
   URL = "pricing"
 
@@ -198,6 +193,10 @@ name = "RSVP"
 URL = "rsvp"
 weight = 6
 
+[[Languages.en.menu.main]]
+name = "FAQ"
+URL = "faq"
+weight = 7
 
 # footer menu
 [[Languages.en.menu.footer]]
@@ -221,13 +220,13 @@ URL = "pricing"
 weight = 4
 
 [[Languages.en.menu.footer]]
-name = "FAQ"
-URL = "faq"
+name = "RSVP"
+URL = "rsvp"
 weight = 5
 
 [[Languages.en.menu.footer]]
-name = "RSVP"
-URL = "rsvp"
+name = "FAQ"
+URL = "faq"
 weight = 6
 
 ################################ German Language ########################
@@ -269,12 +268,7 @@ hasChildren = true
 
   [[Languages.de.menu.main]]
   parent = "Pages"
-  name = "FAQ"
-  URL = "faq"
-
-  [[Languages.de.menu.main]]
-  parent = "Pages"
-  name = "Tarification"
+  name = "Preise"
   URL = "pricing"
 
   [[Languages.de.menu.main]]
@@ -286,6 +280,11 @@ hasChildren = true
 name = "RSVP"
 URL = "rsvp"
 weight = 6
+
+[[Languages.de.menu.main]]
+name = "FAQ"
+URL = "faq"
+weight = 7
 
 
 # footer menu
@@ -310,11 +309,11 @@ URL = "pricing"
 weight = 4
 
 [[Languages.de.menu.footer]]
-name = "FAQ"
-URL = "faq"
+name = "RSVP"
+URL = "rsvp"
 weight = 5
 
 [[Languages.de.menu.footer]]
-name = "RSVP"
-URL = "rsvp"
+name = "FAQ"
+URL = "faq"
 weight = 6
