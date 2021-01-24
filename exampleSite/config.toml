@@ -164,8 +164,8 @@ URL = "about"
 weight = 2
 
 [[Languages.en.menu.main]]
-name = "Project"
-URL = "project"
+name = "Sightseeing"
+URL = "sightseeing"
 weight = 3
 
 [[Languages.en.menu.main]]
@@ -206,8 +206,8 @@ URL = "about"
 weight = 1
 
 [[Languages.en.menu.footer]]
-name = "Project"
-URL = "project"
+name = "Sightseeing"
+URL = "sightseeing"
 weight = 2
 
 [[Languages.en.menu.footer]]
@@ -253,8 +253,8 @@ URL = "about"
 weight = 2
 
 [[Languages.fr.menu.main]]
-name = "Projet"
-URL = "project"
+name = "Sightseeing"
+URL = "sightseeing"
 weight = 3
 
 [[Languages.fr.menu.main]]
@@ -295,8 +295,8 @@ URL = "about"
 weight = 1
 
 [[Languages.fr.menu.footer]]
-name = "Project"
-URL = "project"
+name = "Sightseeing"
+URL = "sightseeing"
 weight = 2
 
 [[Languages.fr.menu.footer]]

@@ -8,7 +8,7 @@ banner:
   button:
     enable : true
     label : "Discover Our Project"
-    link : "project"
+    link : "sightseeing"
 
 ############################# About #################################
 about:
@@ -24,8 +24,8 @@ about:
   image : "images/wrapper-img.png"
 
 
-######################### Portfolio ###############################
-portfolio:
+######################### Sightseeing ###############################
+sightseeing:
   enable : true
   bg_image : "images/featue-bg.jpg"
   title : "WE BELIEVE IN GREAT IDEAS"
@@ -41,7 +41,7 @@ portfolio:
   button:
     enable : true
     label : "View Works"
-    link : "project"
+    link : "sightseeing"
 
 
 ############################# Service ############################

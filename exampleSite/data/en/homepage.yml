@@ -7,13 +7,13 @@ banner:
   content : "We love the Web and the work we do.We work closely with our clients to deliver  the best possible solutions for their needs"
   button:
     enable : true
-    label : "Discover Our Project"
-    link : "project"
+    label : "RSVP"
+    link : "contact"
 
 ############################# About #################################
 about:
   enable : true
-  title : "About Us"
+  title : "Our Story"
   description : "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
               blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics"
   content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
@@ -24,11 +24,11 @@ about:
   image : "images/wrapper-img.png"
 
 
-######################### Portfolio ###############################
-portfolio:
+######################### Sightseeing ###############################
+sightseeing:
   enable : true
   bg_image : "images/featue-bg.jpg"
-  title : "WE BELIEVE IN GREAT IDEAS"
+  title : "Sightseeing"
   content : "
   Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
 
@@ -41,12 +41,12 @@ portfolio:
   button:
     enable : true
     label : "View Works"
-    link : "project"
+    link : "sightseeing"
 
 
 ############################# Service ############################
 service:
-  enable : true
+  enable : false
   # service content comes from "data/*/service.yml" file
 
 
