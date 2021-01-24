@@ -1,10 +1,10 @@
 ---
-title: "Rio Furniture"
-description: "this is meta description"
+title: "Austria"
+description: "The mountain country."
 draft: false
 image : "images/portfolio/work6.jpg"
 bg_image: "images/featue-bg.jpg"
-category: "Video"
+category: "Nature"
 information:
   - label : "Client"
     info : "Jannie Kelonsky"

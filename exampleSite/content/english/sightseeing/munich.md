@@ -1,10 +1,10 @@
 ---
-title: "Rio Furniture"
-description: "this is meta description"
+title: "Munich"
+description: "The beer city."
 draft: false
-image : "images/portfolio/work1.jpg"
+image : "images/portfolio/work3.jpg"
 bg_image: "images/featue-bg.jpg"
-category: "UI/UX Design"
+category: "City"
 information:
   - label : "Client"
     info : "Jannie Kelonsky"

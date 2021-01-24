@@ -1,10 +1,10 @@
 ---
-title: "Rio Furniture"
-description: "this is meta description"
+title: "Lago di Garda"
+description: "Lake"
 draft: false
-image : "images/portfolio/work3.jpg"
+image : "images/portfolio/work4.jpg"
 bg_image: "images/featue-bg.jpg"
-category: "Video"
+category: "Nature"
 information:
   - label : "Client"
     info : "Jannie Kelonsky"

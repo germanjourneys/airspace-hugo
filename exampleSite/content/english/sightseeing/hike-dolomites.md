@@ -1,10 +1,10 @@
 ---
-title: "Rio Furniture"
-description: "this is meta description"
+title: "Hiking the Dolomites"
+description: "hiking adventure"
 draft: false
-image : "images/portfolio/work4.jpg"
+image : "images/portfolio/work5.jpg"
 bg_image: "images/featue-bg.jpg"
-category: "UI/UX Design"
+category: "Nature"
 information:
   - label : "Client"
     info : "Jannie Kelonsky"
