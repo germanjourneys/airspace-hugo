@@ -2,8 +2,8 @@
 title: "Munich"
 description: "The beer city."
 draft: false
-image : "images/portfolio/work3.jpg"
-bg_image: "images/featue-bg.jpg"
+image : "images/us/drama.JPG"
+bg_image: "images/us/eibsee.JPG"
 category: "City"
 information:
   - label : "Client"

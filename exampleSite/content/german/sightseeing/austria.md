@@ -2,8 +2,8 @@
 title: "Austria"
 description: "The mountain country."
 draft: false
-image : "images/portfolio/work6.jpg"
-bg_image: "images/featue-bg.jpg"
+image : "images/us/lavender.JPG"
+bg_image: "images/us/eibsee.JPG"
 category: "Nature"
 information:
   - label : "Client"

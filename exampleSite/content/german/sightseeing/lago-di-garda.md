@@ -2,8 +2,8 @@
 title: "Lago di Garda"
 description: "Lake"
 draft: false
-image : "images/portfolio/work4.jpg"
-bg_image: "images/featue-bg.jpg"
+image : "images/us/lavender.JPG"
+bg_image: "images/us/eibsee.JPG"
 category: "Nature"
 information:
   - label : "Client"
