@@ -4,64 +4,42 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
-- type: heading
-  label: Blog Post
 - type: directory
-  path: exampleSite/content/english/blog
-  label: Post (en)
+  path: exampleSite/content/english/gallery
+  label: Gallery (en)
   create: documents
   match: "**/*"
   templates:
   - post
 - type: directory
-  path: exampleSite/content/french/blog
-  label: Post (fr)
+  path: exampleSite/content/german/gallery
+  label: Gallery (de)
   create: documents
   match: "**/*"
   templates:
   - post
-- type: heading
-  label: Author
-- type: directory
-  path: exampleSite/content/english/author
-  label: Author (en)
-  create: documents
-  match: "**/*"
-  templates:
-  - author
-- type: directory
-  path: exampleSite/content/french/author
-  label: Author (fr)
-  create: documents
-  match: "**/*"
-  templates:
-  - author
-- type: heading
-  label: Project
 - type: directory
   path: exampleSite/content/english/sightseeing
-  label: Project (en)
+  label: Sightseeing (en)
   create: documents
   match: "**/*"
   templates:
   - project
 - type: directory
-  path: exampleSite/content/french/sightseeing
-  label: Project (fr)
+  path: exampleSite/content/german/sightseeing
+  label: Sightseeing (de)
   create: documents
   match: "**/*"
   templates:
   - project
-- type: heading
-  label: Others Pages
 - type: directory
-  path: exampleSite/content/english/about
-  label: About (en)
+  path: exampleSite/content/english/our_story
+  label: Our story (en)
   create: none
   match: "*"
 - type: directory
-  path: exampleSite/content/french/about
-  label: About (fr)
+  path: exampleSite/content/german/our_story
+  label: Our Story (de)
   create: none
   match: "*"
 - type: directory
@@ -75,13 +53,13 @@ sections:
   create: none
   match: "*"
 - type: directory
-  path: exampleSite/content/english/pricing
-  label: Pricing (en)
+  path: exampleSite/content/english/hotels
+  label: Hotels (en)
   create: none
   match: "*"
 - type: directory
-  path: exampleSite/content/french/pricing
-  label: Pricing (fr)
+  path: exampleSite/content/german/hotels
+  label: Hotels (de)
   create: none
   match: "*"
 - type: directory
@@ -90,8 +68,8 @@ sections:
   create: none
   match: "*"
 - type: directory
-  path: exampleSite/content/french/faq
-  label: FAQ (fr)
+  path: exampleSite/content/german/faq
+  label: FAQ (de)
   create: none
   match: "*"
 - type: directory
@@ -112,8 +90,8 @@ sections:
   templates:
   - new-page
 - type: directory
-  path: exampleSite/content/french/pages
-  label: Created Pages (fr)
+  path: exampleSite/content/german/pages
+  label: Created Pages (de)
   create: all
   match: "**/*"
   templates:
@@ -126,22 +104,20 @@ sections:
   templates:
   - new-page
 - type: directory
-  path: exampleSite/content/french
-  label: All Pages (fr)
+  path: exampleSite/content/german
+  label: All Pages (de)
   create: all
   match: "**/*"
   templates:
   - new-page
-- type: heading
-  label: Data
 - type: directory
   path: exampleSite/data/en
   label: Data (en)
   create: all
   match: "**/*"
 - type: directory
-  path: exampleSite/data/fr
-  label: Data (fr)
+  path: exampleSite/data/de
+  label: Data (de)
   create: all
   match: "**/*"
 - type: directory
