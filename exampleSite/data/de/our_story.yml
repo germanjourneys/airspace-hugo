@@ -1,5 +1,5 @@
-################################## About #####################################
-about:
+################################## Our Story #####################################
+our_story:
   enable : true
   image : "images/company/about.jpg"
   title : "We strive to be the best and <br> make awesome work."
@@ -12,9 +12,9 @@ about:
           dolor sit amet, consectetur adipisicing elit. Provident, neque!"
 
   button:
-    enable : true
-    label : "RSVP"
-    link : "contact"
+    enable : false
+    label : "Download Company Profile"
+    link : "#"
 
   funfacts:
     # funfacts loop

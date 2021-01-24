@@ -4,13 +4,13 @@
 
 {{ $data := index site.Data site.Language.Lang }}
 
-{{ if $data.about.about.enable }}
-{{ with $data.about.about }}
-<section class="about section">
+{{ if $data.our_story.our_story.enable }}
+{{ with $data.our_story.our_story }}
+<section class="our_story section">
   <div class="container">
     <div class="row">
       <div class="col-md-6">
-        <div class="about-img">
+        <div class="our_story-img">
           <img class="img-responsive" src="{{ .image | relURL }}">
         </div>
       </div>
@@ -40,9 +40,9 @@
 {{ end }}
 {{ end }}
 
-{{ if $data.about.features.enable }}
-{{ with $data.about.features }}
-<section class="about-feature bg-dark section dark-service">
+{{ if $data.our_story.features.enable }}
+{{ with $data.our_story.features }}
+<section class="our_story-feature bg-dark section dark-service">
   <div class="container">
     {{ with .title }}
     <div class="row">
@@ -72,7 +72,7 @@
 <section class="testimonial section-sm">
   <div class="container">
     <div class="row">
-      {{ if $data.about.testimonial.enable }}
+      {{ if $data.our_story.testimonial.enable }}
       <div class="col-md-6">
         <div class="testimonial-carousel text-center">
           <div class="testimonial-slider owl-carousel">
@@ -91,8 +91,8 @@
       </div>
       {{ end }}
 
-      {{ if $data.about.mission_vision.enable }}
-      {{ with $data.about.mission_vision }}
+      {{ if $data.our_story.mission_vision.enable }}
+      {{ with $data.our_story.mission_vision }}
       <div class="col-md-6">
         <div class="tabCommon">
           <ul class="nav nav-tabs">
@@ -117,7 +117,7 @@
 </section>
 
 <!-- Call to action -->
-{{ if $data.about.cta.enable }}
+{{ if $data.our_story.cta.enable }}
 {{ partial "cta.html" . }}
 {{ end }}
 <!-- /Call to action -->

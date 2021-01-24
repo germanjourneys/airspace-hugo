@@ -1,5 +1,5 @@
-################################## About #####################################
-about:
+################################## Our Story #####################################
+our_story:
   enable : true
   image : "images/company/about.jpg"
   title : "We strive to be the best and <br> make awesome work."
@@ -12,9 +12,9 @@ about:
           dolor sit amet, consectetur adipisicing elit. Provident, neque!"
 
   button:
-    enable : true
-    label : "Download Company Profile"
-    link : "#"
+    enable : false
+    label : "RSVP"
+    link : "contact"
 
   funfacts:
     # funfacts loop
@@ -49,7 +49,7 @@ about:
       
 ################################ feature #####################################
 features:
-  enable : true
+  enable : false
   title : "We are indepented Design & Development Agency"
   feature_item:
     # feature item loop
