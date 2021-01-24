@@ -1,0 +1,47 @@
+################################ hotels ################################
+hotels:
+  enable : true
+  pricing_table:
+    # pricing table loop
+    - name : "Basic"
+      price: "$99"
+      content : "Perfect for singles"
+      link : "#"
+      services:
+        - Single & Double Rooms
+        - Breakfast included
+        - 10 Minutes from location
+        - Beautiful Views
+        - Sauna
+        - Easily Accessible by public transport
+        
+    # pricing table loop
+    - name : "Premium"
+      price: "$199"
+      content : "A little more luxery"
+      link : "#"
+      services:
+        - Single & Double Rooms
+        - Breakfast included
+        - 10 Minutes from location
+        - Beautiful Views
+        - Sauna
+        - Easily Accessible by public transport
+        
+    # pricing table loop
+    - name : "Luxery"
+      price: "$299"
+      content : "Luxery apartements"
+      link : "#"
+      services:
+        - Single & Double Rooms
+        - Breakfast included
+        - 10 Minutes from location
+        - Beautiful Views
+        - Sauna
+        - Easily Accessible by public transport
+        
+############################# call to action #################################
+cta:
+  enable : false
+  # call to action content comes from "data/*/homepage.yml"
