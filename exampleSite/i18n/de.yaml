@@ -11,7 +11,7 @@
 - id: address_title
   translation: Adresse
 - id: submit
-  translation: Sende eine Nachricht
+  translation: Abschicken
 - id: all
   translation: Alle
 - id: posted_by

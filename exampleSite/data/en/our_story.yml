@@ -14,7 +14,7 @@ our_story:
   button:
     enable : false
     label : "RSVP"
-    link : "contact"
+    link : "rsvp"
 
   funfacts:
     # funfacts loop

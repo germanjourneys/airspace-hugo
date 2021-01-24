@@ -84,7 +84,7 @@ author = "Themefisher"
 mobile = "0124857985320"
 email = "demo@email.com"
 location = "North Main Street,Brooklyn Australia"
-# contact form action
+# Contact form action
 contact_form_action = "#" # contact form works with : https://formspree.io
 # Google Analitycs
 google_analitycs_id = "" # Your ID# search
@@ -100,7 +100,7 @@ preloader = "" # use .png , .svg or .gif format
 [params.nav_button]
 enable = true
 label = "Get A Quote"
-link = "contact"
+link = "rsvp"
 
 # google map
 [params.gmap]
@@ -194,8 +194,8 @@ hasChildren = true
   URL = "service"
   
 [[Languages.en.menu.main]]
-name = "Contact"
-URL = "contact"
+name = "RSVP"
+URL = "rsvp"
 weight = 6
 
 
@@ -226,8 +226,8 @@ URL = "faq"
 weight = 5
 
 [[Languages.en.menu.footer]]
-name = "Contact"
-URL = "contact"
+name = "RSVP"
+URL = "rsvp"
 weight = 6
 
 ################################ German Language ########################
@@ -283,8 +283,8 @@ hasChildren = true
   URL = "service"
   
 [[Languages.de.menu.main]]
-name = "Contact"
-URL = "contact"
+name = "RSVP"
+URL = "rsvp"
 weight = 6
 
 
@@ -315,6 +315,6 @@ URL = "faq"
 weight = 5
 
 [[Languages.de.menu.footer]]
-name = "Contact"
-URL = "contact"
+name = "RSVP"
+URL = "rsvp"
 weight = 6
