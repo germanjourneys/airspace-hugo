@@ -164,18 +164,18 @@ URL = "our_story"
 weight = 2
 
 [[Languages.en.menu.main]]
-name = "Sightseeing"
-URL = "sightseeing"
+name = "Gallery"
+URL = "gallery"
 weight = 3
-
-[[Languages.en.menu.main]]
-name = "Blog"
-URL = "blog"
-weight = 4
 
 [[Languages.en.menu.main]]
 name = "Hotels"
 URL = "hotels"
+weight = 4
+
+[[Languages.en.menu.main]]
+name = "Sightseeing"
+URL = "sightseeing"
 weight = 5
 
 [[Languages.en.menu.main]]
@@ -195,18 +195,18 @@ URL = "our_story"
 weight = 1
 
 [[Languages.en.menu.footer]]
-name = "Sightseeing"
-URL = "sightseeing"
+name = "Gallery"
+URL = "gallery"
 weight = 2
-
-[[Languages.en.menu.footer]]
-name = "Service"
-URL = "service"
-weight = 3
 
 [[Languages.en.menu.footer]]
 name = "Hotels"
 URL = "hotels"
+weight = 3
+
+[[Languages.en.menu.footer]]
+name = "Sightseeing"
+URL = "sightseeing"
 weight = 4
 
 [[Languages.en.menu.footer]]
@@ -242,18 +242,18 @@ URL = "our_story"
 weight = 2
 
 [[Languages.de.menu.main]]
-name = "Sightseeing"
-URL = "sightseeing"
+name = "gallerie"
+URL = "gallery"
 weight = 3
-
-[[Languages.de.menu.main]]
-name = "Blog"
-URL = "blog"
-weight = 4
 
 [[Languages.de.menu.main]]
 name = "Hotels"
 URL = "hotels"
+weight = 4
+
+[[Languages.de.menu.main]]
+name = "Sightseeing"
+URL = "sightseeing"
 weight = 5
   
 [[Languages.de.menu.main]]
@@ -274,18 +274,18 @@ URL = "our_story"
 weight = 1
 
 [[Languages.de.menu.footer]]
-name = "Sightseeing"
-URL = "sightseeing"
+name = "Gallerie"
+URL = "gallery"
 weight = 2
-
-[[Languages.de.menu.footer]]
-name = "Service"
-URL = "service"
-weight = 3
 
 [[Languages.de.menu.footer]]
 name = "Hotels"
 URL = "hotels"
+weight = 3
+
+[[Languages.de.menu.footer]]
+name = "Sightseeing"
+URL = "sightseeing"
 weight = 4
 
 [[Languages.de.menu.footer]]
