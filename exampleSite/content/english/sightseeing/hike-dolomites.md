@@ -2,8 +2,8 @@
 title: "Hiking the Dolomites"
 description: "hiking adventure"
 draft: false
-image : "images/us/drama.JPG"
-bg_image: "images/us/eibsee.JPG"
+image : "images/compressed/eibsee.JPG"
+bg_image : "images/compressed/eibsee.JPG"
 category: "Nature"
 information:
   - label : "Client"

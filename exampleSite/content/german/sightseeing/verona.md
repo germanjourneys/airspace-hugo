@@ -2,8 +2,8 @@
 title: "Verona"
 description: "The city of love."
 draft: false
-image: "/images/img_9883.JPG"
-bg_image: "/images/img_9874.JPG"
+image : "images/compressed/lavender_sunset.JPG"
+bg_image : "images/compressed/lavender_sunset.JPG"
 category: "City"
 information:
   - label : "Client"

@@ -2,8 +2,8 @@
 title: "Venice"
 description: "The city of love."
 draft: false
-image: "/images/img_9689.JPG"
-bg_image: "/images/img_9744.JPG"
+image : "images/compressed/eibsee.JPG"
+bg_image : "images/compressed/eibsee.JPG"
 category: "City"
 information:
   - label : "Client"
