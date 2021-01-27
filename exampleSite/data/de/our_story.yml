@@ -2,6 +2,7 @@
 our_story:
   enable : true
   image : "images/compressed/hai.JPG"
+  image1 : "images/compressed/hai2.JPG"
   title : "We strive to be the best and <br> make awesome work."
   content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius enim, accusantium repellat ex autem numquam
           iure officiis facere vitae itaque.
@@ -85,11 +86,11 @@ features:
 
 #################################### testimonial & mission vision #######################################
 testimonial:
-  enable : true
+  enable : false
   # testimonial content comes from "data/*/homepage.yml" file
 
 mission_vision:
-  enable : true
+  enable : false
   tabs:
     # tab item loop
     - name : "Vision"
@@ -127,5 +128,5 @@ mission_vision:
 
 ############################# call to action #################################
 cta:
-  enable : true
+  enable : false
   # call to action content comes from "data/*/homepage.yml"
