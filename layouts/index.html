@@ -26,6 +26,62 @@
 {{ end }}
 <!-- /banner -->
 
+<!-- /countdown -->
+<section class="countdown section">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-3"></div>
+        <div class="col-xs-2">
+          <div class="clock-number">
+            <body>
+              <h1 id="years"></h1>
+              <p>YEAR</p>
+            </body>
+          </div>
+        </div>
+        <div class="col-xs-2">
+          <div class="clock-number">
+            <h1 id="months"></h1>
+            <p>MONTHS</p>
+          </div>
+        </div>
+        <div class="col-xs-2">
+          <div class="clock-number">
+            <h1 id="days"></h1>    
+            <p>DAYS</p>
+          </div>
+        </div>
+        <div class="col-xs-3"></div>
+      </div>
+    </div>
+</section>
+
+
+<script>
+  var weddingDate = new Date("May 28, 2022 14:00:00");
+  // Update the count down every 1 second
+  var x = setInterval(function() {
+    var now = new Date();
+    var difference = (weddingDate.getTime() - now.getTime()) / 1000;
+
+    var day = weddingDate.getDate() - now.getDate();
+    var month = weddingDate.getMonth() - now.getMonth();
+    if (day < 0) month = month - 1;
+    if (day < 0) day += 30;
+    var days = Math.floor(difference / (60 * 60 * 24));
+    var years = Math.floor((days / 365));
+    if (difference < 0) {
+      day = 0;
+      month = 0;
+      years = 0;
+    }
+    // Display the result in the element with id="countdown"
+    document.getElementById("years").innerHTML = years;  
+    document.getElementById("months").innerHTML =  month;  
+    document.getElementById("days").innerHTML =  day;  
+  }, 1000);
+  </script>
+
 {{ if $data.homepage.our_story.enable }}
 {{ with $data.homepage.our_story }}
 <!-- our_story -->

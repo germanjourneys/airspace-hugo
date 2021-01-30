@@ -323,6 +323,32 @@ input[type="tel"] {
 
 
 
+.clock-number {
+  padding: 10px 0;
+  text-align: center;
+  background-color: lightgray; 
+  border-radius: 10px;
+
+  h1 {
+    color: $light;
+    font-weight: 200;
+    letter-spacing: 6px;
+    font-size: 60px;
+    line-height: 40px;
+    font-weight: 200;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  p {
+    color: $primary-color;
+    text-align: center;
+    letter-spacing: 6px;
+    text-transform: capitalize;
+  }
+}
+
+
 
 
 
@@ -593,7 +619,7 @@ input[type="tel"] {
     width: 100%;
     height: 100%;
     background: #1d192c;
-    opacity: 0.8;
+    opacity: 0.6;
   }
 }
 
