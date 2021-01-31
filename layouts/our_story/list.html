@@ -24,9 +24,10 @@
         {{ end }}
       </div>
     </div>
-    <p> .</p> 
-    <p> .</p> 
-    <p>. </p> 
+  </div>
+</section>
+<section class="our_story section-xs">
+  <div class="container">
     <div class="row">
       <div class="col-md-6">
         {{ .content | markdownify }}
@@ -55,8 +56,41 @@
     </div>
   </div>
 </section>
+<section class="our_story section-xs">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <img class="slide-img" src="{{ .image | relURL }}">
+        <img class="slide-img" src="{{ .image1 | relURL }}">
+        <a class="prev" onclick="plusDivs(-1)">&#10094;</a>
+        <a class="next" onclick="plusDivs(+1)">&#10095;</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  var slideIndex = 1;
+  showDivs(slideIndex);
+
+  function plusDivs(n) {
+    showDivs(slideIndex += n);
+  }
+
+  function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("slide-img");
+    if (n > x.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = x.length} ;
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    x[slideIndex-1].style.display = "block";
+  }
+</script>
 {{ end }}
 {{ end }}
+
 
 {{ if $data.our_story.features.enable }}
 {{ with $data.our_story.features }}
