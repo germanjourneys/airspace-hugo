@@ -2,13 +2,14 @@
 banner:
   enable : true
   bg_image : "images/compressed/hai3.JPG"
-  bg_overlay : false
+  bg_overlay : true
   title : "Martina & <br/> Sebastian"
   content : "xx.xx.2022 - Meran, South Tyrol"
   button:
     enable : false
     label : "RSVP"
     link : "rsvp"
+
 
 ############################# Our Story #################################
 our_story:

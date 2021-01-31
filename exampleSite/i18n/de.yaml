@@ -28,3 +28,9 @@
   translation: Tags
 - id: categories
   translation: Kategorien
+- id: years
+  translation: Jahr
+- id: months
+  translation: Monate
+- id: days
+  translation: Tage
