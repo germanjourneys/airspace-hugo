@@ -1,0 +1,7 @@
+############################# Schedule #################################
+schedule:
+  enable : true
+  title : "Schedule"
+  description : "hello South Tyrol"
+  content : "Here is the plan"
+  image : "images/compressed/hai.JPG"

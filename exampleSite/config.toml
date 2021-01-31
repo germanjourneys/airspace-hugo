@@ -159,34 +159,39 @@ URL = "/"
 weight = 1
 
 [[Languages.de.menu.main]]
+name = "Ablauf"
+URL = "schedule"
+weight = 2
+
+[[Languages.de.menu.main]]
 name = "Unsere Geschichte"
 URL = "our_story"
-weight = 2
+weight = 3
 
 [[Languages.de.menu.main]]
 name = "gallerie"
 URL = "gallery"
-weight = 3
+weight = 4
 
 [[Languages.de.menu.main]]
 name = "Hotels"
 URL = "hotels"
-weight = 4
+weight = 5
 
 [[Languages.de.menu.main]]
 name = "Sightseeing"
 URL = "sightseeing"
-weight = 5
+weight = 6
   
 [[Languages.de.menu.main]]
 name = "RSVP"
 URL = "rsvp"
-weight = 6
+weight = 7
 
 [[Languages.de.menu.main]]
 name = "FAQ"
 URL = "faq"
-weight = 7
+weight = 8
 
 
 # footer menu
@@ -196,29 +201,34 @@ URL = "our_story"
 weight = 1
 
 [[Languages.de.menu.footer]]
+name = "Ablauf"
+URL = "schedule"
+weight = 2
+
+[[Languages.de.menu.footer]]
 name = "Gallerie"
 URL = "gallery"
-weight = 2
+weight = 3
 
 [[Languages.de.menu.footer]]
 name = "Hotels"
 URL = "hotels"
-weight = 3
+weight = 4
 
 [[Languages.de.menu.footer]]
 name = "Sightseeing"
 URL = "sightseeing"
-weight = 4
+weight = 5
 
 [[Languages.de.menu.footer]]
 name = "RSVP"
 URL = "rsvp"
-weight = 5
+weight = 6
 
 [[Languages.de.menu.footer]]
 name = "FAQ"
 URL = "faq"
-weight = 6
+weight = 7
 
 
 ################################ English Language ########################
@@ -239,34 +249,39 @@ URL = "/"
 weight = 1
 
 [[Languages.en.menu.main]]
+name = "Schedule"
+URL = "schedule"
+weight = 2
+
+[[Languages.en.menu.main]]
 name = "Our Story"
 URL = "our_story"
-weight = 2
+weight = 3
 
 [[Languages.en.menu.main]]
 name = "Gallery"
 URL = "gallery"
-weight = 3
+weight = 4
 
 [[Languages.en.menu.main]]
 name = "Hotels"
 URL = "hotels"
-weight = 4
+weight = 5
 
 [[Languages.en.menu.main]]
 name = "Sightseeing"
 URL = "sightseeing"
-weight = 5
+weight = 6
 
 [[Languages.en.menu.main]]
 name = "RSVP"
 URL = "rsvp"
-weight = 6
+weight = 7
 
 [[Languages.en.menu.main]]
 name = "FAQ"
 URL = "faq"
-weight = 7
+weight = 8
 
 # footer menu
 [[Languages.en.menu.footer]]
@@ -275,26 +290,31 @@ URL = "our_story"
 weight = 1
 
 [[Languages.en.menu.footer]]
+name = "Schedule"
+URL = "schedule"
+weight = 2
+
+[[Languages.en.menu.footer]]
 name = "Gallery"
 URL = "gallery"
-weight = 2
+weight = 3
 
 [[Languages.en.menu.footer]]
 name = "Hotels"
 URL = "hotels"
-weight = 3
+weight = 4
 
 [[Languages.en.menu.footer]]
 name = "Sightseeing"
 URL = "sightseeing"
-weight = 4
+weight = 5
 
 [[Languages.en.menu.footer]]
 name = "RSVP"
 URL = "rsvp"
-weight = 5
+weight = 6
 
 [[Languages.en.menu.footer]]
 name = "FAQ"
 URL = "faq"
-weight = 6
+weight = 7
