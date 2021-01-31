@@ -112,7 +112,7 @@ map_marker = "images/marker.png"
 
 # cookies
 [params.cookies]
-enable = true
+enable = false
 expire_days = 2
 
 ############################# social site ########################
@@ -140,84 +140,6 @@ link = "#"
 icon = "ion-social-facebook-outline" #ionicon pack v2 : https://ionicons.com/v2/
 link = "#"
 
-
-################################ English Language ########################
-[Languages.en]
-languageName = "En"
-languageCode = "en-us"
-contentDir = "content/english"
-weight = 2
-# copyright
-copyright = "Copyright &copy; 2020 [Themefisher](https://themefisher.com) All Rights Reserved"
-
-
-######################### english navigation #############################
-# main menu
-[[Languages.en.menu.main]]
-name = "Home"
-URL = "/"
-weight = 1
-
-[[Languages.en.menu.main]]
-name = "Our Story"
-URL = "our_story"
-weight = 2
-
-[[Languages.en.menu.main]]
-name = "Gallery"
-URL = "gallery"
-weight = 3
-
-[[Languages.en.menu.main]]
-name = "Hotels"
-URL = "hotels"
-weight = 4
-
-[[Languages.en.menu.main]]
-name = "Sightseeing"
-URL = "sightseeing"
-weight = 5
-
-[[Languages.en.menu.main]]
-name = "RSVP"
-URL = "rsvp"
-weight = 6
-
-[[Languages.en.menu.main]]
-name = "FAQ"
-URL = "faq"
-weight = 7
-
-# footer menu
-[[Languages.en.menu.footer]]
-name = "Our Story"
-URL = "our_story"
-weight = 1
-
-[[Languages.en.menu.footer]]
-name = "Gallery"
-URL = "gallery"
-weight = 2
-
-[[Languages.en.menu.footer]]
-name = "Hotels"
-URL = "hotels"
-weight = 3
-
-[[Languages.en.menu.footer]]
-name = "Sightseeing"
-URL = "sightseeing"
-weight = 4
-
-[[Languages.en.menu.footer]]
-name = "RSVP"
-URL = "rsvp"
-weight = 5
-
-[[Languages.en.menu.footer]]
-name = "FAQ"
-URL = "faq"
-weight = 6
 
 ################################ German Language ########################
 [Languages.de]
@@ -294,6 +216,85 @@ URL = "rsvp"
 weight = 5
 
 [[Languages.de.menu.footer]]
+name = "FAQ"
+URL = "faq"
+weight = 6
+
+
+################################ English Language ########################
+[Languages.en]
+languageName = "En"
+languageCode = "en-us"
+contentDir = "content/english"
+weight = 2
+# copyright
+copyright = "Copyright &copy; 2020 [Themefisher](https://themefisher.com) All Rights Reserved"
+
+
+######################### english navigation #############################
+# main menu
+[[Languages.en.menu.main]]
+name = "Home"
+URL = "/"
+weight = 1
+
+[[Languages.en.menu.main]]
+name = "Our Story"
+URL = "our_story"
+weight = 2
+
+[[Languages.en.menu.main]]
+name = "Gallery"
+URL = "gallery"
+weight = 3
+
+[[Languages.en.menu.main]]
+name = "Hotels"
+URL = "hotels"
+weight = 4
+
+[[Languages.en.menu.main]]
+name = "Sightseeing"
+URL = "sightseeing"
+weight = 5
+
+[[Languages.en.menu.main]]
+name = "RSVP"
+URL = "rsvp"
+weight = 6
+
+[[Languages.en.menu.main]]
+name = "FAQ"
+URL = "faq"
+weight = 7
+
+# footer menu
+[[Languages.en.menu.footer]]
+name = "Our Story"
+URL = "our_story"
+weight = 1
+
+[[Languages.en.menu.footer]]
+name = "Gallery"
+URL = "gallery"
+weight = 2
+
+[[Languages.en.menu.footer]]
+name = "Hotels"
+URL = "hotels"
+weight = 3
+
+[[Languages.en.menu.footer]]
+name = "Sightseeing"
+URL = "sightseeing"
+weight = 4
+
+[[Languages.en.menu.footer]]
+name = "RSVP"
+URL = "rsvp"
+weight = 5
+
+[[Languages.en.menu.footer]]
 name = "FAQ"
 URL = "faq"
 weight = 6
