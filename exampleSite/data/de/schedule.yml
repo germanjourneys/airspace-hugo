@@ -1,7 +1,22 @@
 ############################# Schedule #################################
 schedule:
-  enable : true
   title : "Schedule"
   description : "hello South Tyrol"
   content : "Here is the plan"
   image : "images/compressed/hai.JPG"
+
+  schedule_item:
+    - title: "Kirche"
+      subtitle: "Wir sagen ja!"
+      time: "14 Uhr"
+      icon : "ion-ios-wineglass-outline" 
+
+    - title: "Sektempfang"
+      subtitle: "Lasst uns anstossen!"
+      time: "15 Uhr"
+      icon : "ion-ios-wineglass-outline"
+
+    - title: "Abendessen"
+      subtitle: "Huuuuunger!"
+      time: "18 Uhr"
+      icon : "ion-ios-wineglass-outline"

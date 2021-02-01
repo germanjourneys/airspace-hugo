@@ -4,22 +4,48 @@
 
 {{ $data := index site.Data site.Language.Lang }}
 
+{{ with $data.schedule.schedule }}
 <section class="page-wrapper">
   <div class="container">
     <div class="row">
       <div class="col-md-4 sticky-top">
-        <h2>{{ .Title }}</h2>
-        <p>{{ .Params.Subtitle | markdownify }}</p>
-        <p>{{ i18n "last_update" }}: {{ .PublishDate.Format "January 2, 2006" }}{{ if ne .PublishDate .Lastmod }}, last updated {{ .Lastmod.Format "January 2, 2006" }}{{ end }}</p>
-        <p>{{ i18n "phone" }}: <a href="tel:{{ site.Params.mobile }}">{{ site.Params.mobile }}</a></p>
-        <p>{{ i18n "email" }}: <a href="mailto:{{ site.Params.email }}">{{ site.Params.email }}</a></p>
-        <p>{{ i18n "location" }}: {{ site.Params.location }}</p>
+        <h2>{{ .title }}</h2>
+        <p>{{ .description | markdownify }}</p>
       </div>
       <div class="col-md-8">
-        {{ .Content }}
+        {{ .content }}
       </div>
     </div>
   </div>
 </section>
-
+<section class="schedule bg-dark section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="title">
+          <h1>{{ .title }}</h1>
+        </div>
+      </div>
+    </div>
+    {{ range .schedule_item }}
+    <div class="row">
+      <div class="schedule-item">
+        <div class="col-md-3"></div>
+        <div class="col-md-2">
+          <h4>{{ .title | markdownify }}</h4>
+          <p>{{ .subtitle | markdownify }}</p>
+        </div>
+        <div class="col-md-2">
+          <i class="{{ .icon }}"></i>
+        </div>
+        <div class="col-md-2">
+          <h4>{{ .time | markdownify }}</h4>
+        </div>
+        <div class="col-md-3"></div>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
 {{ end }}
