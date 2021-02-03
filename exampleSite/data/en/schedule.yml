@@ -8,15 +8,18 @@ schedule:
   schedule_item:
     - title: "Ceremony"
       subtitle: "we say yes!"
-      time: "2 PM"
+      time : "2 PM"
       icon : "ion-ios-wineglass-outline"
+      text_left : true
 
     - title: "Champagne time"
       subtitle: "Let's cheers!"
-      time: "3 PM"
+      time : "3 PM"
       icon : "ion-ios-wineglass-outline"
+      text_left: false
 
     - title: "Dinner time"
       subtitle: "Let's eat!"
-      time: "6 PM"
+      time : "6 PM"
       icon : "ion-ios-wineglass-outline"
+      text_left : true

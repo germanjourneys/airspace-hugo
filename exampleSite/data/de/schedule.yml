@@ -8,15 +8,18 @@ schedule:
   schedule_item:
     - title: "Kirche"
       subtitle: "Wir sagen ja!"
-      time: "14 Uhr"
+      time : "14 Uhr"
       icon : "ion-ios-wineglass-outline" 
+      text_left : true
 
     - title: "Sektempfang"
       subtitle: "Lasst uns anstossen!"
-      time: "15 Uhr"
+      time : "15 Uhr"
       icon : "ion-ios-wineglass-outline"
+      text_left : false
 
     - title: "Abendessen"
       subtitle: "Huuuuunger!"
-      time: "18 Uhr"
+      time : "18 Uhr"
       icon : "ion-ios-wineglass-outline"
+      text_left : true
