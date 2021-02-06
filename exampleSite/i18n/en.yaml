@@ -34,3 +34,5 @@
   translation: Months
 - id: days
   translation: Days
+- id: follow
+  translation: Follow Us

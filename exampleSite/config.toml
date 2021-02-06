@@ -116,29 +116,33 @@ enable = false
 expire_days = 2
 
 ############################# social site ########################
-[[params.social]]
-icon = "ion-social-googleplus-outline" #ionicon pack v2 : https://ionicons.com/v2/
-link = "#"
+# [[params.social]]
+# icon = "ion-social-googleplus-outline" #ionicon pack v2 : https://ionicons.com/v2/
+# link = "#"
+
+# [[params.social]]
+# icon = "ion-social-linkedin-outline" #ionicon pack v2 : https://ionicons.com/v2/
+# link = "#"
+
+# [[params.social]]
+# icon = "ion-social-pinterest-outline" #ionicon pack v2 : https://ionicons.com/v2/
+# link = "#"
+
+# [[params.social]]
+# icon = "ion-social-dribbble-outline" #ionicon pack v2 : https://ionicons.com/v2/
+# link = "#"
+
+# [[params.social]]
+# icon = "ion-social-twitter-outline" #ionicon pack v2 : https://ionicons.com/v2/
+# link = "#"
+
+# [[params.social]]
+# icon = "ion-social-facebook-outline" #ionicon pack v2 : https://ionicons.com/v2/
+# link = "#"
 
 [[params.social]]
-icon = "ion-social-linkedin-outline" #ionicon pack v2 : https://ionicons.com/v2/
-link = "#"
-
-[[params.social]]
-icon = "ion-social-pinterest-outline" #ionicon pack v2 : https://ionicons.com/v2/
-link = "#"
-
-[[params.social]]
-icon = "ion-social-dribbble-outline" #ionicon pack v2 : https://ionicons.com/v2/
-link = "#"
-
-[[params.social]]
-icon = "ion-social-twitter-outline" #ionicon pack v2 : https://ionicons.com/v2/
-link = "#"
-
-[[params.social]]
-icon = "ion-social-facebook-outline" #ionicon pack v2 : https://ionicons.com/v2/
-link = "#"
+icon = "ion-social-instagram-outline" #ionicon pack v2 : https://ionicons.com/v2/
+link = "https://www.instagram.com/germanjourneys/"
 
 
 ################################ German Language ########################
@@ -148,7 +152,7 @@ languageCode = "de-de"
 contentDir = "content/german"
 weight = 1
 # copyright
-copyright = "Copyright &copy; 2020 [Themefisher](https://themefisher.com) All Rights Reserved"
+copyright = "Copyright &copy; 2021 Martina&Sebasatian All Rights Reserved"
 
 
 ######################### german navigation #############################
@@ -168,10 +172,10 @@ name = "Unsere Geschichte"
 URL = "our_story"
 weight = 3
 
-[[Languages.de.menu.main]]
-name = "gallerie"
-URL = "gallery"
-weight = 4
+# [[Languages.de.menu.main]]
+# name = "gallerie"
+# URL = "gallery"
+# weight = 4
 
 [[Languages.de.menu.main]]
 name = "Hotels"
@@ -188,10 +192,10 @@ name = "RSVP"
 URL = "rsvp"
 weight = 7
 
-[[Languages.de.menu.main]]
-name = "FAQ"
-URL = "faq"
-weight = 8
+# [[Languages.de.menu.main]]
+# name = "FAQ"
+# URL = "faq"
+# weight = 8
 
 
 # footer menu
@@ -205,10 +209,10 @@ name = "Ablauf"
 URL = "schedule"
 weight = 2
 
-[[Languages.de.menu.footer]]
-name = "Gallerie"
-URL = "gallery"
-weight = 3
+# [[Languages.de.menu.footer]]
+# name = "Gallerie"
+# URL = "gallery"
+# weight = 3
 
 [[Languages.de.menu.footer]]
 name = "Hotels"
@@ -225,10 +229,10 @@ name = "RSVP"
 URL = "rsvp"
 weight = 6
 
-[[Languages.de.menu.footer]]
-name = "FAQ"
-URL = "faq"
-weight = 7
+# [[Languages.de.menu.footer]]
+# name = "FAQ"
+# URL = "faq"
+# weight = 7
 
 
 ################################ English Language ########################
@@ -238,7 +242,7 @@ languageCode = "en-us"
 contentDir = "content/english"
 weight = 2
 # copyright
-copyright = "Copyright &copy; 2020 [Themefisher](https://themefisher.com) All Rights Reserved"
+copyright = "Copyright &copy; 2021 Martina&Sebastian All Rights Reserved"
 
 
 ######################### english navigation #############################
@@ -258,10 +262,10 @@ name = "Our Story"
 URL = "our_story"
 weight = 3
 
-[[Languages.en.menu.main]]
-name = "Gallery"
-URL = "gallery"
-weight = 4
+# [[Languages.en.menu.main]]
+# name = "Gallery"
+# URL = "gallery"
+# weight = 4
 
 [[Languages.en.menu.main]]
 name = "Hotels"
@@ -278,10 +282,10 @@ name = "RSVP"
 URL = "rsvp"
 weight = 7
 
-[[Languages.en.menu.main]]
-name = "FAQ"
-URL = "faq"
-weight = 8
+# [[Languages.en.menu.main]]
+# name = "FAQ"
+# URL = "faq"
+# weight = 8
 
 # footer menu
 [[Languages.en.menu.footer]]
@@ -294,10 +298,10 @@ name = "Schedule"
 URL = "schedule"
 weight = 2
 
-[[Languages.en.menu.footer]]
-name = "Gallery"
-URL = "gallery"
-weight = 3
+# [[Languages.en.menu.footer]]
+# name = "Gallery"
+# URL = "gallery"
+# weight = 3
 
 [[Languages.en.menu.footer]]
 name = "Hotels"
@@ -314,7 +318,7 @@ name = "RSVP"
 URL = "rsvp"
 weight = 6
 
-[[Languages.en.menu.footer]]
-name = "FAQ"
-URL = "faq"
-weight = 7
+# [[Languages.en.menu.footer]]
+# name = "FAQ"
+# URL = "faq"
+# weight = 7
