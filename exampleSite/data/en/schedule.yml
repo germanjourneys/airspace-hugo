@@ -11,15 +11,18 @@ schedule:
       time : "2 PM"
       icon : "ion-ios-wineglass-outline"
       text_left : true
+      last : false
 
     - title: "Champagne time"
       subtitle: "Let's cheers!"
       time : "3 PM"
       icon : "ion-ios-wineglass-outline"
       text_left: false
+      last : false
 
     - title: "Dinner time"
       subtitle: "Let's eat!"
       time : "6 PM"
       icon : "ion-ios-wineglass-outline"
       text_left : true
+      last: true

@@ -30,6 +30,9 @@
     {{ range .schedule_item }}
     <div class="row">
       <div class="schedule-item">
+        {{ if not .last }}
+        <div class="vertical-line"></div>
+        {{ end }}
         {{ if .text_left }}
         <div class="col-md-3 col-xs-0"></div>
         <div class="col-md-2 col-xs-4">
@@ -57,6 +60,7 @@
         </div>
         <div class="col-md-3 col-xs-0"></div>
         {{ end }}
+        <div class="clearfix"></div>
       </div>
     </div>
     {{ end }}
