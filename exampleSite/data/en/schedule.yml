@@ -11,6 +11,7 @@ schedule:
       time : "2 PM"
       icon : "ion-ios-wineglass-outline"
       text_left : true
+      first : true
       last : false
 
     - title: "Champagne time"
@@ -18,6 +19,7 @@ schedule:
       time : "3 PM"
       icon : "ion-ios-wineglass-outline"
       text_left: false
+      first : false
       last : false
 
     - title: "Dinner time"
@@ -25,4 +27,5 @@ schedule:
       time : "6 PM"
       icon : "ion-ios-wineglass-outline"
       text_left : true
+      first : false
       last: true

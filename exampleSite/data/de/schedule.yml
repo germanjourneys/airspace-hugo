@@ -11,6 +11,7 @@ schedule:
       time : "14 Uhr"
       icon : "ion-ios-wineglass-outline" 
       text_left : true
+      first : true
       last : false
 
     - title: "Sektempfang"
@@ -18,6 +19,7 @@ schedule:
       time : "15 Uhr"
       icon : "ion-ios-wineglass-outline"
       text_left : 
+      first : false
       last : false
 
 
@@ -26,4 +28,5 @@ schedule:
       time : "18 Uhr"
       icon : "ion-ios-wineglass-outline"
       text_left : true
+      first : false
       last: true
